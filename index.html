@@ -1,11 +1,565 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>
-      Prova cmusumeci 
-    </title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Junior Full Stack Developer - Catania</title>
+
+    <!-- Import Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" >
+
+    <!-- Import style.css & Components -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Import app.js -->
+    <!-- Import Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,200i,300,300i,400,400i,600,600i,700,700i,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
   </head>
-  <body>
-    <h1>Prova1</h1>
+
+  <body id="top" data-spy="scroll" data-target="#navbar" data-offset="340" onload="myFunction()">
+
+    <div id="loader"></div>
+
+    <div style="display:none;" id="myDiv" class="animate-bottom">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand page-scroll" href="#top">{ CMusumeci89 }</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="nav navbar-nav">
+            <li><a class="page-scroll hidden-xs hidden-sm hidden-md hidden-lg" href="#top"></a></li>
+            <li><a class="page-scroll" href="#about-me">About me</a></li>
+            <li><a class="page-scroll" href="#work-experience">Experience</a></li>
+            <li><a class="page-scroll" href="#education">Education</a></li>
+            <li><a class="page-scroll" href="#skills-tools">Skills</a></li>
+            <li><a class="page-scroll" href="#languages">Languages</a></li>
+            <li><a class="page-scroll" href="#hobbies">Hobbies</a></li>
+            <li><a class="page-scroll" href="#portfolio-work">Portfolio Work</a></li>
+
+          </ul>
+
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+
+    <section class="global-info">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="avatar">
+                <a href="#" data-toggle="modal" data-target="#myModal" ><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" class="img-responsive"></a>
+            </div>
+            <div class="name-jobtitle">
+              <h2 class="title"><small>Junior Full Stack Developer</small>Claudio Musumeci</h2>
+            </div>
+          </div>
+
+          <!-- Modal -->
+     <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+         <div class="modal-dialog modal-sm">
+             <div class="modal-content">
+                 <div class="modal-header">
+                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                     <h4 class="modal-title" id="myModalLabel">About Me</h4>
+                     </div>
+                 <div class="modal-body">
+                     <center>
+                     <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                     <h3 class="media-heading">Claudio Musumeci <small>ITALIA</small></h3>
+                     <span><strong>Skills: </strong></span>
+                         <span class="label label-warning">HTML5/CSS</span>
+                         <span class="label label-info">PHP</span>
+                         <span class="label label-info">SQL</span>
+                         <span class="label label-success">JS</span>
+                         <span class="label label-success">JQUERY</span>
+                         <span class="label label-success">REACT JS</span>
+                         <span class="label label-success">ANGULAR JS</span>
+                         <span class="label label-success">MONGO DB</span>
+                         <span class="label label-warning">SEO</span>
+
+
+
+
+
+                     </center>
+                     <hr>
+                     <center>
+                     <p class="text-left"><strong>Bio: </strong><br>
+Vivo a Catania, sono un Junior Full Stack Developer.                      <br>
+                     </center>
+                 </div>
+                 <div class="modal-footer">
+                    <center>
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </center>
+                </div>
+             </div>
+         </div>
+     </div>
+
+          <div class="col-md-4 hidden-sm hidden-xs">
+            <div class="address-contact">
+              <div class="address">
+                <span>Address</span>
+                <p>Mascalucia(CT)<img src="http://www.worldleathercongress2015.com/images/bandiera_italia1.png" alt="web-developer-italia" width="10%" style="margin:.5rem;"></p>
+              </div>
+              <div class="contact">
+                <span>Contact</span>
+                <p><a href="mailto:cmusumeci89@gmail.com">cmusumeci89@gmail.com</a>
+                  <br/>
+                +3933818304
+                <br/>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 hidden-sm hidden-xs">
+            <ul class="list-inline">
+              <li><a href="https://twitter.com/SandroWalet/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://dribbble.com/SandroWalet" target="_blank"><i class="fa fa-dribbble"></i></a></li>
+              <li><a href="https://nl.linkedin.com/in/sandrowalet" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="http://codepen.io/tamashi/" target="_blank"><i class="fa fa-codepen"></i></a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <div class="resume-container">
+      <section id="about-me" class="resume-section">
+        <article class="container">
+          <div class="row">
+            <div class="category-title col-md-12">
+              <div class="row">
+                <div class="col-md-4" id="#about-me">
+                  <h2>About Me</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note">Catania  —  Novembre 2016</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title">Ciao mi chiamo Claudio Musumeci, piacere di conoscerti.</h3>
+                <p>Vivo a Catania, sono un Junior Full Stack Developer. Collaboro con la NewTechRev, una piccola Web Agency  situata al Centro di Catania e da circa 4 anni ci occupiamo di Comunicazione di diverse realtà Aziendali sparse in tutto il mondo.</p>
+                  <p>  In che modo? Attraverso il Web, con lo sviluppo di Web App Responsive e dei Contenuti Grafici per i Social Media. Senza trascura i Mezzi Di Comunicazione Tradizionali con la creazioni di volantini, brochure, flyers, locandine e opuscoli per eventi e pubblicità. </p>
+
+                <p>Spero di sviluppare la mia carriera all'interno del Mondo del Web Marketing e dello sviluppo delle Web App perché è quello che mi piace! :-)</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="work-experience" class="resume-section">
+        <article class="container">
+          <div class="row">
+            <div class="category-title col-md-12">
+              <div class="row">
+                <div class="col-md-4">
+                  <h2>Work Experience</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note">Maggio 2014 – Presente</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title">Junior Full Stack Developer
+<small>New Technology Revolution srls</small></h3>
+                <p>All’interno del team mi occupo di progettazione e sviluppo di Web Site, E-commerce e App Ios/Android.</p>
+                <p></p>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note">Maggio 2012 – Presente</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title">Dipendente Part-Time <small>INPA SPA</small></h3>
+                <p>INPA S.p.a è un’impresa leader del settore che gestisce diverse decine di Comuni italiani. Mi occupo nel Comune di Mascalucia per conto della Società per le attività di accertamento,
+                  liquidazione e riscossione ordinaria della Tosap – ICP – Pubbliche Affissioni.
+                </p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="education" class="resume-section">
+        <article class="container">
+          <div class="row">
+            <div class="category-title col-md-12">
+              <div class="row">
+                <div class="col-md-4">
+                  <h2>Education</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note">September 2003 – June 2008</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title">Istituto Tecnico Industriale - Informatica <small>Itis G Ferraris San Giovani La Punta(CT)</small></h3>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note">September 2004 – May 2012</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title">Facoltà di Economia e Gestione delle Imprese Turistiche <small>Università degli Studi di Catania</small></h3>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section id="skills-tools" class="resume-section">
+        <article class="container">
+          <div class="row">
+            <div class="category-title col-md-12">
+              <div class="row">
+                <div class="col-md-4">
+                  <h2>Skills &amp; Tools</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note hidden-print">Multidisciplinary Design</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title">Full Stack Developer</h3>
+                <div class="skill">
+                  <h4 class="title">HTML/CSS</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:100%;">
+                      <span class="sr-only">Professional</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h4 class="title">JavaScript</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style="width: 75%;">
+                      <span class="sr-only">Professional</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h4 class="title">PHP</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90" style="width: 68%;">
+                      <span class="sr-only">Professional</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h4 class="title">SQL</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80" style="width: 80%;">80%
+                      <span class="sr-only">Professional</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h4 class="title">Node Js</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70" style="width: 70%;">
+                      <span class="sr-only">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h4 class="title">Mongo DB</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70" style="width: 70%;">
+                      <span class="sr-only">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h4 class="title">Mongo DB</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70" style="width: 30%;">30%
+                      <span class="sr-only">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note hidden-print">Front-end Development</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title">Front-end Development</h3>
+                <div class="skill">
+                  <h4 class="title">HTML &amp; CSS</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
+                      <span class="sr-only">Expert</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="skill">
+                  <h4 class="title">Javascript</h4>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                      <span class="sr-only">Intermediate</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note">Toolset</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title">My prefered tools<small>FROM DESIGN TO CODE</small></h3>
+                <div class="row list">
+                  <div class="col-md-5">
+                    <ul class="list-unstyled">
+                      <li>Photoshop CC 2015</li>
+                      <li>Illustrator CC 2015</li>
+                      <li>After Effects CC 2015</li>
+                      <li>FramerJS</li>
+                      <li>Sketch</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-5">
+                    <ul class="list-unstyled">
+                      <li>InDesign CC 2015</li>
+                      <li>Sublime Text 3</li>
+                      <li>Trello</li>
+                      <li>Slack</li>
+                      <li>Gitlab</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="languages" class="resume-section">
+        <article class="container">
+          <div class="row">
+            <div class="category-title col-md-12">
+              <div class="row">
+                <div class="col-md-4">
+                  <h2>Languages</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note hidden-print">Languages</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title hidden-print">Languages</h3>
+                <div class="skill">
+                  <h4 class="title">Italian <small>Native</small></h4>
+                </div>
+                <div class="skill">
+                  <h4 class="title">English <small> Professional proficiency</small></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="hobbies" class="resume-section">
+        <article class="container">
+          <div class="row">
+            <div class="category-title col-md-12">
+              <div class="row">
+                <div class="col-md-4">
+
+                  <h2>Hobbies</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note hidden-print">My Hobbies</span>
+              <div class="col-md-6 resume-card">
+                <h3 class="title hidden-print">My Hobbies</h3>
+                <div class="row list">
+                  <div class="col-md-3">
+
+                    <ul class="list-unstyled">
+                      <li>Soccer</li>
+                      <li>Travel</li>
+                      <li>Games</li>
+                      <li>Movies</li>
+                      <li>Tv Series</li>
+                    </ul>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section id="portfolio-work" class="resume-section">
+        <article class="container">
+          <div class="row">
+            <div class="category-title col-md-12">
+              <div class="row">
+                <div class="col-md-4">
+                  <h2>Portoflio Work</h2>
+                </div>
+              </div>
+            </div>
+            <div class="card-container">
+              <span class="col-md-3 col-md-offset-1 side-note"></span>
+              <div class="col-md-6 resume-card">
+                <div class="row">
+  <div class="col-md-12">
+  <!--Primo progetto -->
+        <a href="#" data-src data-toggle="modal" data-target="#modalportfolio" >
+        <div class="thumbnail well">
+            <img src="http://www.newtechrev.it/wp-content/uploads/2016/05/almau.it-logo.png" alt="portfoliowork-almau.it">
+            <div class="caption">
+              <center><h3>Almau.it</h3></center>
+              <p>...</p>
+            </div>
+          </div>
+        </a>
+        <!-- Modal -->
+            <div class="modal fade" id="modalportfolio" tabindex="-1" role="dialog" aria-labelledby="modalportfolioLabel">
+            <div class="modal-dialog" role="document">
+              <!-- Modal content-->
+               <div class="modal-content">
+                 <div class="modal-header">
+                   <button type="button" class="close" data-dismiss="modal">&times;</button>
+                   </div>
+                 <div class="modal-body">
+
+                     <iframe src="http://www.almau.it" style="zoom:0.90" width="100%" height="400px" frameborder="1"></iframe>
+
+                 </div>
+
+               </div>
+            </div>
+            </div>
+
+  <!--Secondo progetto -->
+
+  <a href="#" data-src="http://alanoleggio.it" data-toggle="modal" data-target="#modalportfolio2" >
+  <div class="thumbnail well">
+<img src="http://www.newtechrev.it/wp-content/uploads/2016/05/logoalanoleggionewtec.png" alt="">
+      <div class="caption">
+        <center><h3>Alanoleggio.it</h3></center>
+        <p>...</p>
+      </div>
+    </div>
+  </a>
+<!-- Modal -->
+    <div class="modal fade" id="modalportfolio2" tabindex="-1" role="dialog" aria-labelledby="modalportfolio2Label">
+    <div class="modal-dialog" role="document">
+      <!-- Modal content-->
+       <div class="modal-content">
+         <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           </div>
+         <div class="modal-body">
+
+             <iframe src="http://www.alanoleggio.it" style="zoom:0.90" width="100%" height="400px" frameborder="1"></iframe>
+
+         </div>
+
+       </div>
+    </div>
+    </div>
+<!--Terzo Progetto -->
+<a href="#" data-toggle="modal" data-target="#modalportfolio3" >
+<div class="thumbnail well">
+<img src="http://www.newtechrev.it/wp-content/uploads/2015/11/vettoriale-onetna.png" alt="">
+  <div class="caption">
+      <center><h3>Onetna.it</h3></center>
+      <p>...</p>
+    </div>
+  </div>
+</a>
+<!-- Modal -->
+  <div class="modal fade" id="modalportfolio3" tabindex="-1" role="dialog" aria-labelledby="modalportfolio3Label">
+  <div class="modal-dialog" role="document">
+    <!-- Modal content-->
+     <div class="modal-content">
+       <div class="modal-header">
+         <button type="button" class="close" data-dismiss="modal">&times;</button>
+         </div>
+       <div class="modal-body">
+
+           <iframe src="http://www.onetna.it" style="zoom:0.90" width="100%" height="400px" frameborder="1"></iframe>
+
+       </div>
+
+     </div>
+  </div>
+  </div>
+  <!-- Quarto Progetto -->
+  <a href="#" data-toggle="modal" data-target="#modalportfolio4" >
+  <div class="thumbnail well">
+  <img src="http://www.newtechrev.it/wp-content/uploads/2016/05/drinkexpresslogo.png" alt="" />
+      <div class="caption">
+        <center><h3>drinkexpress.it</h3></center>
+        <p>...</p>
+      </div>
+    </div>
+  </a>
+<!-- Modal -->
+    <div class="modal fade" id="modalportfolio4" tabindex="-1" role="dialog" aria-labelledby="modalportfoli4oLabel">
+    <div class="modal-dialog" role="document">
+      <!-- Modal content-->
+       <div class="modal-content">
+         <div class="modal-header">
+           <button type="button" class="close" data-dismiss="modal">&times;</button>
+           </div>
+         <div class="modal-body">
+
+             <iframe src="http://www.drinkexpress.it" style="zoom:0.90" width="100%" height="400px" frameborder="1"></iframe>
+
+         </div>
+
+       </div>
+    </div>
+    </div>
+    <!-- fine progetti -->
+  </div>
+</div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+    </div>
+
+    <footer class="text-center">
+      <p>© 2016 Claudio Musumeci</p>
+    </footer>
+</div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <!-- jQuery Easing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<!-- MyJavascript -->
+    <script src="app.js"></script>
+
   </body>
-<html>
-  
+
+</html>
