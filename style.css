@@ -1970,7 +1970,7 @@ a:focus {
 }
 @media (min-width: 480px) {
   .global-info .name-jobtitle .title {
-    font-size: 26px;
+    font-size: 23px;
   }
 }
 .global-info .name-jobtitle .title small {
