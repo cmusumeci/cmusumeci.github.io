@@ -2464,3 +2464,6 @@ bottom:6rem;
   display: none;
   text-align: center;
 }
+.thumbnail.well {
+    background-color: rgba(85, 85, 85, 0.46);
+}
