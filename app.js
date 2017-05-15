@@ -4,7 +4,7 @@ $(function () {
         $('#myModal').modal('hide');
     });
 });
-function myFunction() {
+/*function myFunction() {
     myVar = setTimeout(showPage, 1000);
 }
 
